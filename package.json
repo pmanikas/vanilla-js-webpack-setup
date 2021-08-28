@@ -1,18 +1,15 @@
 {
   "private": true,
-  "name": "test",
+  "name": "vanilla-js-webpack-setup",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "cross-env": "cross-env",
     "build": "cross-env NODE_ENV=production webpack",
     "build-dev": "webpack",
     "start": "webpack serve --open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Pantelis Manikas",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
