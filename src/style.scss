@@ -1,0 +1,21 @@
+:root {
+  --mainBg: salmon;
+}
+
+$mainColor: moccasin;
+
+body {
+  background: var(--mainBg);
+  color: $mainColor;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 58px;
+    text-align: center;
+  }
+}
